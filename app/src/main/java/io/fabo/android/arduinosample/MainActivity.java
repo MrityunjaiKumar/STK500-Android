@@ -56,11 +56,11 @@ public class MainActivity extends AppCompatActivity implements StkWriterListener
             @Override
             public void onClick(View v) {
                 Log.i(TAG, "openUSB---0");
-                // ボタンがクリックされた時にUSBを開く.
+                // When the button is clicked USB open
                 if (mStkWriter.openUsb()) {
 
                 } else {
-                    mTextViewCommment.setText("USBの接続に失敗しました。");
+                    mTextViewCommment.setText("USB connection failed");
                 }
             }
         });
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements StkWriterListener
             }
         });
 
-        // USBの装着、脱着をReceiverで取得.
+        //USB Attaching and detaching receiver acquired with
         IntentFilter filter = new IntentFilter();
         filter.addAction(StkWriter.ACTION_USB_PERMISSION);
         filter.addAction(UsbManager.ACTION_USB_DEVICE_DETACHED);
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements StkWriterListener
     protected void onResume() {
         super.onResume();
 
-        // SerialPortの生成
+        // Serial Port Generation
         mStkWriter = new StkWriter(this);
         mStkWriter.enableDebug();
         mStkWriter.setListener(this);
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements StkWriterListener
     protected void onPause() {
         super.onPause();
 
-        // SerialPortを閉じる
+        // SerialPort Close
         mStkWriter.closeUsb();
         mStkWriter = null;
     }
@@ -117,14 +117,14 @@ public class MainActivity extends AppCompatActivity implements StkWriterListener
 
             if (mStkWriter.ACTION_USB_PERMISSION.equals(action)) {
                 synchronized (this) {
-                    mTextViewCommment.setText("USBに接続しました。");
+                    mTextViewCommment.setText("USB connected");
                 }
             } else if (UsbManager.ACTION_USB_DEVICE_DETACHED.equals(action)) {
-                // USBを閉じる
+                // USB close
                 mStkWriter.closeUsb();
-                mTextViewCommment.setText("USBをクローズしました。");
+                mTextViewCommment.setText("USB closed");
             } else {
-                mTextViewCommment.setText("不明なIntent");
+                mTextViewCommment.setText("unknown Intent");
             }
         }
     };
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements StkWriterListener
                     @Override
                     public void run() {
                         mButtonSend.setVisibility(Button.VISIBLE);
-                        mTextViewCommment.setText("Arduino Unoと接続しました。");
+                        mTextViewCommment.setText("Arduino Uno connected");
                     }
                 });
                 break;
@@ -172,7 +172,8 @@ public class MainActivity extends AppCompatActivity implements StkWriterListener
                 mActivity.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        mTextViewCommment.setText("Firmwareの転送が成功しました。");
+                        mTextViewCommment.setText("\n" +
+                                "Starting transfer of Firmware.");
                         mButtonClose.setVisibility(Button.VISIBLE);
                     }
                 });
@@ -194,7 +195,7 @@ public class MainActivity extends AppCompatActivity implements StkWriterListener
                 mActivity.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        mTextViewCommment.setText("Firmwareの転送に失敗しました。");
+                        mTextViewCommment.setText("\n" +"Firmware transfer failed.");
                     }
                 });
                 break;
