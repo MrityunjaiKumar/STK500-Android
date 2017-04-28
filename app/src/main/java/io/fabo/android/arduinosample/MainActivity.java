@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity implements StkWriterListener
                 mActivity.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        mTextViewCommment.setText("Firmwareの転送を開始します。");
+                        mTextViewCommment.setText("Firmware Transfer of data is started");
                     }
                 });
                 break;

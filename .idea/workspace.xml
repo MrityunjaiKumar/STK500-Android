@@ -10,21 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="828c63db-1e5b-4254-9edb-7a0c84aba91d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/io/fabo/android/arduinosample/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/io/fabo/android/arduinosample/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stk500/build.gradle" afterPath="$PROJECT_DIR$/stk500/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stk500/stk500.iml" afterPath="$PROJECT_DIR$/stk500/stk500.iml" />
     </list>
     <ignored path="STK500-Android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -176,8 +163,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/io/fabo/android/arduinosample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2105">
-              <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="166" column="69" selection-start-line="166" selection-start-column="69" selection-end-line="166" selection-end-column="69" />
               <folding>
                 <element signature="e#1616#1990#0" expanded="true" />
                 <element signature="e#1989#1990#0" expanded="true" />
@@ -191,12 +178,12 @@
                 <element signature="e#3908#3909#0" expanded="true" />
                 <element signature="e#4262#4531#0" expanded="true" />
                 <element signature="e#4530#4531#0" expanded="true" />
-                <element signature="e#4870#5069#0" expanded="true" />
-                <element signature="e#5068#5069#0" expanded="true" />
-                <element signature="e#5191#5509#0" expanded="true" />
-                <element signature="e#5508#5509#0" expanded="true" />
-                <element signature="e#5917#6129#0" expanded="true" />
-                <element signature="e#6128#6129#0" expanded="true" />
+                <element signature="e#4870#5087#0" expanded="true" />
+                <element signature="e#5086#5087#0" expanded="true" />
+                <element signature="e#5209#5527#0" expanded="true" />
+                <element signature="e#5526#5527#0" expanded="true" />
+                <element signature="e#5935#6147#0" expanded="true" />
+                <element signature="e#6146#6147#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3228,6 +3215,14 @@
       <option name="presentableId" value="Default" />
       <updated>1458270327030</updated>
     </task>
+    <task id="LOCAL-00001" summary="english&#10;">
+      <created>1493399938555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493399938555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3279,6 +3274,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="english&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="english&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3429,8 +3428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/io/fabo/android/arduinosample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2105">
-          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="166" column="69" selection-start-line="166" selection-start-column="69" selection-end-line="166" selection-end-column="69" />
           <folding>
             <element signature="e#1616#1990#0" expanded="true" />
             <element signature="e#1989#1990#0" expanded="true" />
@@ -3444,12 +3443,12 @@
             <element signature="e#3908#3909#0" expanded="true" />
             <element signature="e#4262#4531#0" expanded="true" />
             <element signature="e#4530#4531#0" expanded="true" />
-            <element signature="e#4870#5069#0" expanded="true" />
-            <element signature="e#5068#5069#0" expanded="true" />
-            <element signature="e#5191#5509#0" expanded="true" />
-            <element signature="e#5508#5509#0" expanded="true" />
-            <element signature="e#5917#6129#0" expanded="true" />
-            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="e#4870#5087#0" expanded="true" />
+            <element signature="e#5086#5087#0" expanded="true" />
+            <element signature="e#5209#5527#0" expanded="true" />
+            <element signature="e#5526#5527#0" expanded="true" />
+            <element signature="e#5935#6147#0" expanded="true" />
+            <element signature="e#6146#6147#0" expanded="true" />
           </folding>
         </state>
       </provider>
